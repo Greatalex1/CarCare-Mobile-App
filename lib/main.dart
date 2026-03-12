@@ -48,7 +48,7 @@ if (!conn.isOnline) {
 return Positioned(
 top: MediaQuery.of(context).padding.top * 8,
 left: 0,
-right: 0,
+right: 3,
 child: Container(
 alignment:Alignment.center ,
 color: Colors.red,
